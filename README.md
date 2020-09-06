@@ -9,8 +9,16 @@ In this module challenge you will continue working on your portfolio website to 
 ## Objectives
 
 - describe the differences in fixed, fluid, adaptive, and responsive layouts
+    -- Fixed: Completely fixed, doesn't change in size so on smaller screens you end up with a horizontal scroll bar.
+    -- Fluid: Using percentages instead of pixels. Things get thinner as the screen gets smaller, which will make blocks look squished.
+    -- Adaptive: The layout changes when a certain breakpoint is reached. Design A will stay until the screen is smaller than 500px, in which case it'll turn into Design B.
+    -- Responsive: Mixes Fluid and Adaptive. The layout changes, but does so more gradually by "squishing" elements until a smaller breakpoint is reached. 
 - implement media queries in a project.
+  -- @Media (max-width: 1000px){
+      Just as an example.
+    }
 - describe how using scalable units for font sizes impacts accessibility and why designing accessible web pages is important
+  -- Using scalable units means that people with different visual needs get the webpage adjusted to them. Instead of the fonts being a static 16px, the text can be as large or as small as they need. Millions of people have impairments, and it's immoral not to design webpages with them in mind.
 
 ## Introduction
 
@@ -24,15 +32,15 @@ In this challenge you will refactor your personal portfolio code to make it resp
 
 New features of a project should occur in a new branch in the same repository. Follow these steps to set up and work on your project from yesterday:
 
-- [ ] `cd` into your personal portfolio folder
-- [ ] Create a new branch from `<firstName-lastName>`:
+- [x] `cd` into your personal portfolio folder
+- [x] Create a new branch from `<firstName-lastName>`:
 
 ```bash
 git checkout -b <firstName-lastName-day2> <firstName-lastName>.
 ```
 
-- [ ] Implement the project on your newly created `<firstName-lastName-day2>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName-day2>`.
+- [x] Implement the project on your newly created `<firstName-lastName-day2>` branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName-day2>`.
 
 ### Task 2: Minimum Viable Product
 
